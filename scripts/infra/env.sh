@@ -10,13 +10,13 @@ echo "Exporting environment variables..."
 
 export PROJECT="java-runtimes"
 export RESOURCE_GROUP="rg-${PROJECT}"
-export LOCATION="eastus"
+export LOCATION="westeurope"
 export TAG="java-runtimes"
 
 export LOG_ANALYTICS_WORKSPACE="logs-java-runtimes"
 export CONTAINERAPPS_ENVIRONMENT="env-java-runtimes"
 
-export UNIQUE_IDENTIFIER=${UNIQUE_IDENTIFIER:-$(whoami)}
+export UNIQUE_IDENTIFIER=lubuxnl
 
 echo "Using unique identifier is: ${UNIQUE_IDENTIFIER}"
 echo "You can override it by setting it manually before running this script:"
